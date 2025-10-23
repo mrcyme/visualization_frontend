@@ -1,16 +1,20 @@
 # Brussels Smart City Monitoring Tool
 
 ## Overview
+![App to update shelter occupancy](media/app_screenshot.png)
 
 The Brussels Smart City Monitoring Tool is a real-time situational awareness platform designed to provide control room operators with a comprehensive view of urban mobility and emergency response across Brussels. Built as a fast, minimalistic, and highly responsive single-page application, it aggregates multiple data sources into an intuitive map-based interface.
 
 The goal is to help people in the control room to have an understanding of the current situation to be able to beter react.
 
+NOTE : CURRENTLY, ALL DATA ARE GENUINE EXCEPT FOR POLICE AND EMERGENCY VEHICULE AS WELL AS THE FILL LEVEL OF THE SHELTERS
+
+
 The platform could be complemented with a mobile app where first respondant can update some real time metric, for example the number of remaining spot in a shelter.
 
-![App to update shelter occupancy](public/Generated%20Image%20October%2023%2C%202025%20-%201_24PM)
+![App to update shelter occupancy](media/mobile_app_wireframe.png)
 
-NOTE : CURRENTLY, ALL DATA ARE GENUINE EXCEPT FOR POLICE AND EMERGENCY VEHICULE AS WELL AS THE FILL LEVEL OF THE SHELTERS
+
 
 ## Available Data Layers
 
