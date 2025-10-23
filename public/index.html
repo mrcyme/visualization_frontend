@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Map Benchmark - DeckGL</title>
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body>
+    <header class="topbar">
+      <div class="brand">MobilityTwin Map Benchmark — DeckGL</div>
+    </header>
+
+    <div id="layout">
+      <aside id="sidebar">
+        <div class="sidebar-header">Data sources</div>
+        <ul id="source-list"></ul>
+        <div id="source-details" class="source-details"></div>
+      </aside>
+      <main id="main">
+        <div id="deck-view" class="view visible">
+          <div id="deck-container" class="map"></div>
+          <div class="hud" id="hud-deck"></div>
+          <div id="legend" class="legend hidden"></div>
+          <div id="popup" class="popup hidden"></div>
+        </div>
+      </main>
+    </div>
+
+    <script src="https://unpkg.com/deck.gl@8.9.36/dist.min.js"></script>
+    <script src="/app.js" type="module"></script>
+  </body>
+</html> 

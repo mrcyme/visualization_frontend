@@ -1,0 +1,24 @@
+{
+  "name": "brussels-mobility-visualization",
+  "version": "1.0.0",
+  "description": "Brussels Smart City Mobility Visualization",
+  "scripts": {
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "server": "cd server && npm run dev",
+    "client": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "vue": "^3.4.0",
+    "mapbox-gl": "^3.1.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.0.0",
+    "vite": "^5.0.0",
+    "concurrently": "^8.2.2"
+  }
+}
+
+
+

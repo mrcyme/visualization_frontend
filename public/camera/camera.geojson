@@ -1,0 +1,42 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "src": "https://data.mobility.brussels/media/camera/image/E40_201m.jpg",
+        "active": true,
+        "time": "2025-10-21 17:38:00"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [4.286146504004153, 50.871102360702515]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "src": "https://data.mobility.brussels/media/camera/image/R0_207m.jpg",
+        "active": true,
+        "time": "2025-10-21 17:39:00"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [4.306476575916594, 50.80255116638148]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "src": "https://data.mobility.brussels/media/camera/image/BE_201.jpg",
+        "active": true,
+        "time": "2025-10-21 17:39:00"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [4.378551128694063, 50.840408525352146]
+      }
+    }
+  ]
+}
+
