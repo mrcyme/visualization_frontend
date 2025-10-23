@@ -6,6 +6,11 @@ export default defineConfig({
   server: {
     host: '0.0.0.0',
     port: 5173,
+    allowedHosts: [
+      'hackaton.digitaltwin.brussels',
+      'localhost',
+      '.digitaltwin.brussels'
+    ],
     proxy: {
       '/api': {
         target: 'http://localhost:4002',
